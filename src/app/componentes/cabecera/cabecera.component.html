@@ -1,0 +1,14 @@
+<mat-toolbar class="fondo" color="primary">
+    <mat-toolbar-row>
+        <span class="cursor" [routerLink]="['/episodios/listar-episodios']">Rick and Morty</span>
+        <span class="example-spacer"></span>
+        <button mat-button [matMenuTriggerFor]="menu">
+            <mat-icon aria-hidden="false" aria-label="Example home icon">menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item [routerLink]="['/episodios/listar-episodios']">Inicio</button>
+            <button mat-menu-item (click)="cerrarSession()">Cerrar sesión</button>
+        </mat-menu>
+    </mat-toolbar-row>
+
+</mat-toolbar>

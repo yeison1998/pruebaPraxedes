@@ -1,0 +1,50 @@
+.card {
+    max-width: 25%;
+    margin: 2%;
+    background: #3C3E44;
+    color: white;
+}
+
+.mat-card-subtitle {
+    color: white;
+}
+
+.container {
+    padding: 5%;
+}
+
+.fondo {
+    background: #24282F;
+}
+
+.titulo {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    color: #84FBFC;
+}
+
+.titulo h1 {
+    text-shadow: 2px 2px 2px rgba(110, 182, 65, 0.6);
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.container_cards {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #9E9E9E;
+}
+
+.no_favorito {
+    width: 20%;
+    margin-left: 2%;
+}
+
+.favorito {
+    width: 20%;
+    margin-left: 2%;
+}

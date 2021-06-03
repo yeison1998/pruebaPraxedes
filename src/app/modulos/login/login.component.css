@@ -1,0 +1,26 @@
+.login {
+    max-width: 30%;
+    margin: auto;
+    top: 30%;
+}
+
+.botones {
+    width: 100%;
+}
+
+.boton_iniciar_sesion {
+    justify-content: center;
+    display: grid;
+    text-align: center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.boton_iniciar {
+    color: white;
+    background: #217F31;
+    margin-bottom: 10px !important;
+}

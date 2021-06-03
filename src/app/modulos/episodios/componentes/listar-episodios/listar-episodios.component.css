@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    background: aliceblue
+}
+
+.contenedorTabla {
+    margin: 5%;
+}
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    background: #24282F;
+}
+
+.titulo {
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    color: #84FBFC;
+}
+
+.titulo h1 {
+    text-shadow: 2px 2px 2px rgba(110, 182, 65, 0.6);
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td,
+th {
+    width: 20%;
+}
+
+.fila {
+    cursor: pointer;
+}

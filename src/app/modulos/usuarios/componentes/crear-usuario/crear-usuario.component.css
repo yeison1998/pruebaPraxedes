@@ -1,0 +1,32 @@
+.registrarse {
+    max-width: 50%;
+    margin: auto;
+    top: 10%;
+}
+
+.botones {
+    width: 60%;
+}
+
+.titulo {
+    justify-content: center;
+}
+
+.iniciar_sesion {
+    display: flex;
+    justify-content: center;
+}
+
+.mat-card-content {
+    text-align: center;
+}
+
+.boton_registrar {
+    color: white;
+    background: #217F31;
+}
+
+.boton_cancelar {
+    background: #CC2129;
+    color: white;
+}

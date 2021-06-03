@@ -1,0 +1,45 @@
+<app-cabecera></app-cabecera>
+<div class="fondo">
+    <div class="container">
+        <div class="titulo">
+            <h1> Personajes del episodio {{episodio ? episodio.name : ''}} de rick and Morty
+
+
+                <!-- <mat-icon aria-hidden="false" aria-label="Example home icon" *ngIf="mostrarFavorito" (click)="cambiarEstadoFavorito()" class="favorito" style="color: yellow;">star</mat-icon>
+            <mat-icon aria-hidden="false" aria-label="Example home icon" *ngIf="!mostrarFavorito" (click)="cambiarEstadoFavorito()" class="no_favorito">star_outline</mat-icon> -->
+            </h1>
+
+        </div>
+        <div class="container_cards">
+            <mat-card class="card" *ngFor="let personaje of personajes">
+                <mat-card-header>
+                    <img *ngIf="personaje.esFavorito" (click)="cambiarEstadoFavorito(personaje)" class="favorito" src="../../../../../assets/imagenes/favorito.svg" alt="favorito">
+                    <img *ngIf="!personaje.esFavorito" (click)="cambiarEstadoFavorito(personaje)" class="no_favorito" src="../../../../../assets/imagenes/no-favorito.svg" alt="no favorito">
+                    <mat-card-title>{{personaje.name}}</mat-card-title>
+                    <mat-card-subtitle>{{personaje.species}}</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="{{personaje.image}}">
+                <mat-card-content>
+                    <div>
+                        <h2>Tipo</h2>
+                        <p>
+                            {{personaje.type ? personaje.type : 'Humano'}}
+                        </p>
+                        <h2>Estado</h2>
+                        <p>
+                            {{personaje.status}}
+                        </p>
+                        <h2>
+                            Genero
+                        </h2>
+                        <p>
+                            {{personaje.gender}}
+                        </p>
+                    </div>
+
+                </mat-card-content>
+
+            </mat-card>
+        </div>
+    </div>
+</div>
